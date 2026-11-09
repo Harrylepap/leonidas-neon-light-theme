@@ -1,0 +1,122 @@
+{
+  "name": "Leonidas - Neon Light",
+  "dark": true,
+  "author": "Bako Harry Rakotondratompo",
+  "parentTheme": "Islands Dark",
+  "editorScheme": "Leonidas - Neon Light",
+  "colors": {
+    "gray-160": "#F9F4FC",
+    "gray-150": "#EEE2F5",
+    "gray-140": "#E5D1F0",
+    "gray-130": "#DBC0EA",
+    "gray-120": "#CEABE3",
+    "gray-110": "#C296DC",
+    "gray-100": "#B076D1",
+    "gray-90": "#9E58C7",
+    "gray-80": "#873CB3",
+    "gray-70": "#713296",
+    "gray-60": "#5C287A",
+    "gray-50": "#4E2368",
+    "gray-40": "#3E1C52",
+    "gray-30": "#2E143D",
+    "gray-20": "#281235",
+    "gray-10": "#1E0D28",
+    "blue-160": "#FFF7FB",
+    "blue-150": "#FFE2F0",
+    "blue-140": "#FFCFE5",
+    "blue-130": "#FFBDDC",
+    "blue-120": "#FFA7D0",
+    "blue-110": "#FF92C5",
+    "blue-100": "#FF70B3",
+    "blue-90": "#FF4DA0",
+    "blue-80": "#FF1A85",
+    "blue-70": "#E8006C",
+    "blue-60": "#B70055",
+    "blue-50": "#9B0048",
+    "blue-40": "#7B0039",
+    "blue-30": "#5A002A",
+    "blue-20": "#4F0025",
+    "blue-10": "#3B001C"
+  },
+  "ui": {
+    "List": {
+      "selectionBackground": "#FF2E88",
+      "selectionForeground": "#FFFFFF",
+      "selectionInactiveBackground": "#5A1E6E"
+    },
+    "Tree": {
+      "selectionBackground": "#FF2E88",
+      "selectionForeground": "#FFFFFF",
+      "selectionInactiveBackground": "#5A1E6E"
+    },
+    "Table": {
+      "selectionBackground": "#FF2E88",
+      "selectionForeground": "#FFFFFF",
+      "selectionInactiveBackground": "#5A1E6E",
+      "selectionInactiveForeground": "#FFFFFF"
+    },
+    "Popup": {
+      "selectionBackground": "#FF2E88",
+      "selectionForeground": "#FFFFFF",
+      "selectionInactiveBackground": "#5A1E6E"
+    },
+    "ComboBox": {
+      "selectionBackground": "#FF2E88",
+      "selectionForeground": "#FFFFFF",
+      "selectionInactiveBackground": "#5A1E6E"
+    },
+    "Menu": {
+      "selectionBackground": "#FF2E88",
+      "selectionForeground": "#FFFFFF",
+      "selectionInactiveBackground": "#5A1E6E"
+    },
+    "MenuItem": {
+      "selectionBackground": "#FF2E88",
+      "selectionForeground": "#FFFFFF",
+      "selectionInactiveBackground": "#5A1E6E"
+    },
+    "PopupMenu": {
+      "selectionBackground": "#FF2E88",
+      "selectionForeground": "#FFFFFF",
+      "selectionInactiveBackground": "#5A1E6E"
+    },
+    "RecentProject": {
+      "selectionBackground": "#FF2E88",
+      "selectionForeground": "#FFFFFF",
+      "selectionInactiveBackground": "#5A1E6E"
+    },
+    "Component": {
+      "focusColor": "#FF2E88",
+      "focusedBorderColor": "#FF2E88"
+    },
+    "Button": {
+      "default.startBackground": "#FF2E88",
+      "default.endBackground": "#FF7A2F",
+      "default.foreground": "#FFFFFF"
+    },
+    "Link": {
+      "activeForeground": "#2BD9E8",
+      "hoverForeground": "#7DF3FF"
+    },
+    "ProgressBar": {
+      "progressColor": "#FF2E88",
+      "indeterminateStartColor": "#FF2E88",
+      "indeterminateEndColor": "#FCAF17"
+    },
+    "SearchMatch": {
+      "startBackground": "#FCAF17",
+      "endBackground": "#FCAF17"
+    },
+    "EditorTabs": {
+      "underlineColor": "#FF2E88",
+      "inactiveUnderlineColor": "#8E3FD6",
+      "underlinedTabBackground": "#3A1A55",
+      "underlinedBorderColor": "#FF2E88",
+      "inactiveUnderlinedTabBackground": "#2A1440",
+      "inactiveUnderlinedTabBorderColor": "#8E3FD6"
+    },
+    "SearchEverywhere": {
+      "Tab.selectedBackground": "#3A1A55"
+    }
+  }
+}

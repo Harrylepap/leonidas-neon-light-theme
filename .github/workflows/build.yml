@@ -1,0 +1,52 @@
+# Build + Plugin Verifier à chaque push / pull request
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+    name: Build & verify
+    runs-on: ubuntu-latest
+    steps:
+      - name: Maximize Build Space
+        uses: jlumbroso/free-disk-space@v2.0.0
+        with:
+          preinstalled-runtimes: false
+          large-packages: false
+
+      - name: Fetch Sources
+        uses: actions/checkout@v7
+
+      - name: Setup Java
+        uses: actions/setup-java@v6
+        with:
+          distribution: zulu
+          java-version: 21
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v6
+
+      - name: Build plugin
+        run: ./gradlew buildPlugin
+
+      - name: Verify plugin structure
+        run: ./gradlew verifyPluginProjectConfiguration verifyPluginStructure
+
+      - name: Run Plugin Verifier
+        run: ./gradlew verifyPlugin
+
+      - name: Upload plugin artifact
+        uses: actions/upload-artifact@v5
+        with:
+          name: leonidas-neon-light
+          path: build/distributions/*.zip
+
+      - name: Upload verifier reports
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v5
+        with:
+          name: plugin-verifier-reports
+          path: build/reports/pluginVerifier

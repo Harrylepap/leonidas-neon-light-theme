@@ -1,0 +1,10 @@
+<!-- id, name, version, vendor, description, change-notes et idea-version sont injectés
+     au build depuis gradle.properties, README.md et CHANGELOG.md (Gradle ou tools/build_local_jar.py). -->
+<idea-plugin>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="leonidas-neon-light" path="/themes/leonidas-neon-light.theme.json"/>
+        <bundledColorScheme id="Leonidas - Neon Light" path="/themes/leonidas-neon-light.xml"/>
+    </extensions>
+</idea-plugin>

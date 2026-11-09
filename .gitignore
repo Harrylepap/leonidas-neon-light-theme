@@ -1,0 +1,12 @@
+.gradle/
+.intellijPlatform/
+.kotlin/
+build/
+out/
+.idea/
+*.iml
+local.properties
+# Certificats de signature : JAMAIS dans le dépôt
+*.pem
+*.key
+*.crt
