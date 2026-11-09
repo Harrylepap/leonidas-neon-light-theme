@@ -10,6 +10,8 @@ on:
 jobs:
   release:
     name: Publish Plugin
+    # v1.0.0 a été déposée à la main sur le Marketplace : ne pas la republier
+    if: github.event.release.tag_name != 'v1.0.0'
     runs-on: ubuntu-latest
     permissions:
       contents: write

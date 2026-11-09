@@ -5,6 +5,8 @@
 
 A neon-soaked dark theme for JetBrains IDEs, built on top of **Islands Dark**.
 
+Matching terminal style (Windows Terminal, Starship prompt, eza, Claude Code status line): [leonidas-neon-light-terminal](https://github.com/Harrylepap/leonidas-neon-light-terminal).
+
 <!-- Plugin description -->
 **Leonidas - Neon Light** is a dark theme inspired by neon-lit coastal nights: deep purple skies, hot pink signs, sunset orange and lagoon turquoise.
 
@@ -39,7 +41,10 @@ After installation: <kbd>Settings</kbd> &gt; <kbd>Appearance &amp; Behavior</kbd
 ## Installation
 
 - From the JetBrains Marketplace: <kbd>Settings</kbd> &gt; <kbd>Plugins</kbd> &gt; <kbd>Marketplace</kbd> &gt; search **Leonidas - Neon Light**
-- Manually: download the latest release and use <kbd>Settings</kbd> &gt; <kbd>Plugins</kbd> &gt; <kbd>⚙️</kbd> &gt; <kbd>Install plugin from disk...</kbd>
+- Manually (no Marketplace needed):
+  1. Download **`leonidas-neon-light-theme-1.0.0.zip`** from the [latest release](https://github.com/Harrylepap/leonidas-neon-light-theme/releases/latest) (do not extract it).
+  2. In the IDE: <kbd>Settings</kbd> &gt; <kbd>Plugins</kbd> &gt; <kbd>⚙️</kbd> &gt; <kbd>Install Plugin from Disk...</kbd> and pick the zip.
+  3. Restart, then select the theme in <kbd>Settings</kbd> &gt; <kbd>Appearance</kbd> &gt; <kbd>Theme</kbd>.
 
 ## Build
 
