@@ -1,7 +1,8 @@
 # Leonidas - Neon Light
 
 [![Build](https://github.com/harrylepap/leonidas-neon-light-theme/actions/workflows/build.yml/badge.svg)](https://github.com/harrylepap/leonidas-neon-light-theme/actions/workflows/build.yml)
-<!-- TODO_MARKETPLACE_BADGES : une fois publié, ajouter les badges version / downloads du Marketplace -->
+[![Version](https://img.shields.io/jetbrains/plugin/v/35939?label=Marketplace&color=FF2E88)](https://plugins.jetbrains.com/plugin/35939-leonidas--neon-light)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/35939?color=FCAF17)](https://plugins.jetbrains.com/plugin/35939-leonidas--neon-light)
 
 A neon-soaked dark theme for JetBrains IDEs, built on top of **Islands Dark**.
 
@@ -40,7 +41,7 @@ After installation: <kbd>Settings</kbd> &gt; <kbd>Appearance &amp; Behavior</kbd
 
 ## Installation
 
-- From the JetBrains Marketplace: <kbd>Settings</kbd> &gt; <kbd>Plugins</kbd> &gt; <kbd>Marketplace</kbd> &gt; search **Leonidas - Neon Light**
+- From the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/35939-leonidas--neon-light): <kbd>Settings</kbd> &gt; <kbd>Plugins</kbd> &gt; <kbd>Marketplace</kbd> &gt; search **Leonidas - Neon Light**
 - Manually (no Marketplace needed):
   1. Download **`leonidas-neon-light-theme-1.0.0.zip`** from the [latest release](https://github.com/Harrylepap/leonidas-neon-light-theme/releases/latest) (do not extract it).
   2. In the IDE: <kbd>Settings</kbd> &gt; <kbd>Plugins</kbd> &gt; <kbd>⚙️</kbd> &gt; <kbd>Install Plugin from Disk...</kbd> and pick the zip.
