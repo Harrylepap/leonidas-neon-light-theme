@@ -9,7 +9,7 @@ A neon-soaked dark theme for JetBrains IDEs, built on top of **Islands Dark**.
 Matching terminal style (Windows Terminal, Starship prompt, eza, Claude Code status line): [leonidas-neon-light-terminal](https://github.com/Harrylepap/leonidas-neon-light-terminal).
 
 <!-- Plugin description -->
-**Leonidas - Neon Light** is a dark theme inspired by neon-lit coastal nights: deep purple skies, hot pink signs, sunset orange and lagoon turquoise.
+**Leonidas - Neon Light** is a dark theme inspired by neon-lit Miami nights: deep purple skies, hot pink signs, sunset orange and lagoon turquoise.
 
 - UI built on top of **Islands Dark**: same layout, recolored with a purple night palette and hot pink accents
 - Bundled editor color scheme: pink keywords, mint strings, golden numbers, lagoon classes, sunset methods
